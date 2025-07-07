@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "[1.21.90]Anonymous Chat",
+        "description": "",
+        "uuid": "f9b25752-6574-15e7-aa47-b51116394fd8",
+        "version": [
+            0,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            40
+        ]
+    },
+    "modules": [
+        {
+            "description": "GameTest module",
+            "type": "script",
+            "uuid": "5b306a5f-1073-2dbc-1193-8ec59fecf9e1",
+            "version": [
+                0,
+                1,
+                0
+            ],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.1.0-beta"
+        }
+    ]
+}
