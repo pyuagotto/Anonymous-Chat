@@ -44,7 +44,7 @@ world.beforeEvents.chatSend.subscribe((ev) => {
     ev.cancel = true;
     for (const player of world.getPlayers()) {
         if(player.name !== sender.name) player.sendMessage(`<${ANONYMOUS_NAME}> ${message}`);
-        else player.sendMessage(`<${sender.name}> ${message}`);
+        else player.sendMessage(`<${ANONYMOUS_NAME}> ${message}`);
     }
 });
 
