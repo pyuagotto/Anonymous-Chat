@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "name": "[1.21.100]Anonymous Chat",
+        "name": "[1.21.111]Anonymous Chat",
         "description": "BetaAPIを有効にする必要があります",
-        "uuid": "a3c8d5e2-4f91-4b7a-8e3c-2d6f9a1b4c7e",
+        "uuid": "a3c8d5e2-4f56-4b7a-8e3c-2d6f9a1b4c7e",
         "version": [
             0,
             1,
@@ -19,7 +19,7 @@
         {
             "description": "GameTest module",
             "type": "script",
-            "uuid": "7e2b5f8a-9c4d-4a1e-b6f3-8d5a2c9e1f4b",
+            "uuid": "7e2b5f8a-9c0d-4a1e-b6f3-8d5a2c9e1f4b",
             "version": [
                 0,
                 1,
@@ -31,7 +31,7 @@
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "2.2.0-beta"
+            "version": "2.3.0-beta"
         },
         {
             "module_name": "@minecraft/server-ui",
